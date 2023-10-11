@@ -8,7 +8,12 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <div className="section-title" style={{ marginBottom: "0.5rem" }}>
+            <h3>
+              Silk <span>Road</span>
+            </h3>
+          </div>
+          {/* <img src={logo} className="nav-logo" alt="backroads" /> */}
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>

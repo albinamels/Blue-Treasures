@@ -1,7 +1,6 @@
-import tour1 from "./images/tour-1.jpeg";
-import tour2 from "./images/tour-2.jpeg";
-import tour3 from "./images/tour-3.jpeg";
-import tour4 from "./images/tour-4.jpeg";
+import tour1 from "./images/kel-suu.jpg";
+import tour2 from "./images/sary-chelek.jpg";
+import tour3 from "./images/chatyr-kol.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -11,9 +10,21 @@ export const pageLinks = [
 ];
 
 export const socialLinks = [
-  { id: 1, href: "https://www.twitter.com", icon: "fab fa-facebook" },
-  { id: 2, href: "https://www.twitter.com", icon: "fab fa-twitter" },
-  { id: 3, href: "https://www.twitter.com", icon: "fab fa-squarespace" },
+  {
+    id: 1,
+    href: "https://www.facebook.com/silkroadexplore",
+    icon: "fab fa-facebook",
+  },
+  {
+    id: 2,
+    href: "https://twitter.com/exploresilkroad",
+    icon: "fab fa-twitter",
+  },
+  {
+    id: 3,
+    href: "https://www.instagram.com/silkroadexplore/",
+    icon: "fab fa-instagram",
+  },
 ];
 
 export const services = [
@@ -21,19 +32,19 @@ export const services = [
     id: 1,
     icon: "fas fa-wallet fa-fw",
     title: "saving money",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.",
+    text: "Early bookings for group tours are eligible for 5% discounts. The 4 first Bookings are eligible for a discount.",
   },
   {
     id: 2,
     icon: "fas fa-tree fa-fw",
-    title: "endless hiking",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.",
+    title: "endless climbing",
+    text: "We offer unique programs - guaranteed expeditions to Lenin Peak and Khan Tengri, which will take place with a group of any size.",
   },
   {
     id: 3,
     icon: "fas fa-socks fa-fw",
     title: "amazing comfort",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.",
+    text: "If you wish to have a private room, if you are vegetarian, vegan or you have a specific diet, let us know before making your reservation.",
   },
 ];
 
@@ -42,9 +53,9 @@ export const tours = [
     id: 1,
     image: tour1,
     date: "august 26th, 2020",
-    title: "Tibet Adventure",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "china",
+    title: "Miraculous Kel Suu",
+    text: "Lake Kel Suu is a small lake bound between stark cliffs near the Chinese border. Its vivid turquoise waters are located in the Sary-Beles Mountains and are only accessible from July to August. Lake Kel Suu's reclusive position and mysterious cliff-side caves appear as a beautiful enigma.",
+    location: "Naryn",
     duration: 6,
     price: 2100,
   },
@@ -52,30 +63,20 @@ export const tours = [
     id: 2,
     image: tour2,
     date: "october 1th, 2020",
-    title: "best of java",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "indonesia",
-    duration: 11,
+    title: "Untamed Sary Chelek",
+    text: "The Sary Chelek Biosphere contains 1000+ species of plants, 160 bird species, and 34 different mammals, the most famous of which is the endangered snow leopard. It's crisp blue-green waters wink in the sunlight as it sprawls untamed over its wild domain.",
+    location: "Chatkal",
+    duration: 6,
     price: 1400,
   },
   {
     id: 3,
     image: tour3,
     date: "september 15th, 2020",
-    title: "explore hong kong",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "hong kong",
+    title: "Celestial Chatyr Kul",
+    text: "Lake Chatyr Kul is perched high in the sky at an elevation of 3530m, making it Kyrgyzstan's highest alpine lake. Its waters resemble a shade of greenish-yellow and the area around the lake is home to Marco Polo Sheep and many rare bird species.",
+    location: "At-Bashi",
     duration: 8,
     price: 5000,
-  },
-  {
-    id: 4,
-    image: tour4,
-    date: "december 5th, 2019",
-    title: "kenya highlights",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "kenya",
-    duration: 20,
-    price: 3300,
   },
 ];

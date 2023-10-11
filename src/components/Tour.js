@@ -3,7 +3,7 @@ const Tour = ({ image, date, title, text, location, duration, price }) => {
     <article className="tour-card">
       <div className="tour-img-container">
         <img src={image} className="tour-img" alt={title} />
-        <p className="tour-date">{date}</p>
+        {/* <p className="tour-date">{date}</p> */}
       </div>
       <div className="tour-info">
         <div className="tour-title">

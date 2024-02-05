@@ -3,8 +3,6 @@
 This is a basic landing page created for travel agency in Kyrgyzstan.
 https://blue-treasures.netlify.app/
 
-## Screenshots
-
 ### Home Page
 ![Home Page](https://github.com/albinamels/Blue-Treasures/blob/master/screenshots/Screenshot1.png)
 
